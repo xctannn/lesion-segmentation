@@ -23,7 +23,7 @@ from os import listdir
 from os.path import isfile, join, splitext
 
 # Default parameters (the only code you can change)
-verbose = False #False, 1, or 2
+verbose = 1 #False, 1, or 2
 input_dir = 'dataset/AddTest'
 output_dir = 'dataset/AddOutput'
 groundtruth_dir = 'dataset/AddTestGT'
